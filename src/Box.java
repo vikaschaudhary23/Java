@@ -4,7 +4,8 @@ public class Box {
     int height;
     int depth;
 
-    public Box(int width, int height, int depth) {
+    public Box(int width, int height, int depth) //parameterized constructor
+    {
         this.width = width;
         this.height = height;
         this.depth = depth;
